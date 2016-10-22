@@ -31,12 +31,12 @@ The dataset in tidyData.csv can be viewed by entering the following lines of cod
 #Variables in the tidy dataset
 
 * ActDesc: a text description of the activity with the following possible values:  
-+ WALKING (value 1): subject was walking during the test  
-+ WALKING_UPSTAIRS (value 2): subject was walking up a staircase during the test  
-+ WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase during the test  
-+ SITTING (value 4): subject was sitting during the test  
-+ STANDING (value 5): subject was standing during the test  
-+ LAYING (value 6): subject was laying down during the test  
+	+ WALKING (value 1): subject was walking during the test  
+	+ WALKING_UPSTAIRS (value 2): subject was walking up a staircase during the test  
+	+ WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase during the test  
+	+ SITTING (value 4): subject was sitting during the test  
+	+ STANDING (value 5): subject was standing during the test  
+	+ LAYING (value 6): subject was laying down during the test  
 * ActId: an integer value between 1 and 6 inclusive corresponding the ActDesc variable  
 -Subject: an integer value between 1 and 30 represent the person whose movements produces the measurement values below  
 -tBodyAcc.mean().X: this variable and all the variables below are decimal values representing the average of the measurements for the activity and subject identified in the ActDesc and Subject columns.  
