@@ -63,4 +63,4 @@ tidyData <- actData %>%
             group_by(ActDesc, ActId, Subject) %>% 
             summarise_each(funs(mean))
 
-write.csv(tidyData, file = "tidyData.csv", row.names = FALSE)
+write.table(tidyData, file = "tidyData.txt", row.names = FALSE)

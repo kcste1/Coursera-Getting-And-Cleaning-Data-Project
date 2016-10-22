@@ -18,14 +18,14 @@ The tidy dataset was created by following these steps:
 2. The training and test data are combined into one dataset. This includes activity IDs, activity descriptions, subjects and the measurement variables.  
 3. Meaningful column names are assigned to the dataset using the names in features.txt (included in the input zip file)  
 4. The dataset is then subsetted to include only the activity ID, activity description, subject, mean and standard deviation variables. Mean and standard deviation variables were identified by having mean() and std() in the column name.  
-5. The tidy dataset tidyData.csv is created by calculating the averages for the mean and standard deviation variables for each combination of activity and subject.  
+5. The tidy dataset tidyData.txt is created by calculating the averages for the mean and standard deviation variables for each combination of activity and subject.  
 
-The data in tidyData.csv is in wide form and is tidy because:
+The data in tidyData.txt is in wide form and is tidy because:
 * each column contains one and only one variable  
 * each row contains one and only observation (in this case, an observation is the means of the measurement variables for each combination of activity and subject)  
 
-The dataset in tidyData.csv can be viewed by entering the following lines of code in R (assuming you have downloaded tidyData.csv to your working directory):  
-* tidyData2 <- read.csv("tidyData.csv")
+The dataset in tidyData.txt can be viewed by entering the following lines of code in R (assuming you have downloaded tidyData.txt to your working directory):  
+* tidyData2 <- read.table("tidyData.txt")
 * View(tidyData2)
 
 #Variables in the tidy dataset
